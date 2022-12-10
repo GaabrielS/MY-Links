@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Merriweather:ital,wght@1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;700&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family:'Merriweather' , sans-serif ;
+box-sizing: border-box;
+  }
+
+  body {
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(to top left, #00B4DB, #0083B0 );
+
+  }
+
+
+img {
+    
+border-radius: 50%;
+height: 330px;
+
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+ font-size: 3em;
+ color: #076585;
+
+}
+
+p {
+    
+    color: #076585;
+}
+
+ul {
+margin-top: 40px;
+
+}
+
+li {
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+a:hover {
+background-color: #98C1D9;
+color: #168AAD;
+
+}
+
+ a {
+    background-color: #168AAD;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    height: 48px;
+    border-radius: 5px;
+ }
+
+ footer {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+ }
+
+ .container {
+    background-color: none;
+    width: 320px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
